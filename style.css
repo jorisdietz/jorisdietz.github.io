@@ -1,0 +1,59 @@
+/* load fonts */
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #F5F5F5;
+    color: #050505;
+    font-family: 'Roboto';
+    width: 960px;
+    margin: 0 auto; /*center the page*/
+}
+
+h1 {
+    color: #f655ab;
+    font-family: 'Black Han Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+b {
+    color: #55abf6;
+}
+
+a {
+    text-transform: uppercase;
+    margin-right: 5px;
+    padding: 10px;
+    color: #abf655;
+    font-weight: 200, sans-serif;
+}
+
+
+.card {
+    background-color: #ffffff;
+    box-shadow: 0px 5px 5px 5px rgba(25, 25, 25, 0.25);
+    padding: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 50px;
+    column-gap: 25px;
+    align-items: center;
+}
+
+.button {
+    color: #ffffff;
+    background-color: #abf655;
+    padding: 5px;
+    border: transparent;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: transparent;
+    color: #abf655;
+    border: solid 2px #abf655;
+}
